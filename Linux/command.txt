@@ -1,1 +1,12 @@
 LOAD 
+ADD new_files new_filenumbers.csv
+MODIFY img_files "A cap on the table" 506
+MODIFY new_files "A cup on the table" 404
+MOVE
+PRINT
+SEARCH "on the"
+SELECT 404
+EDIT -r
+EDIT -l 16
+EDIT -f
+EXIT
